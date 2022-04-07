@@ -12,3 +12,9 @@ variable "api_id" {
   type        = string
   description = "The ID of the REST API in API Gateway."
 }
+
+variable "cors" {
+  type        = string
+  default     = "*"
+  description = "API CORS configuration."
+}
